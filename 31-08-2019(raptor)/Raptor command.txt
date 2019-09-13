@@ -1,0 +1,124 @@
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~
+$ pwd
+/c/Users/R&D1
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~
+$ cd desktop
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~/desktop
+$ cd raptor
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~/desktop/raptor
+$ git init
+Initialized empty Git repository in C:/Users/R&D1/Desktop/raptor/.git/
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~/desktop/raptor (master)
+$ git -a
+unknown option: -a
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~/desktop/raptor (master)
+$ git config user.name "repallesireesha"
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~/desktop/raptor (master)
+$ git config user.name "Repallesireesha"
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~/desktop/raptor (master)
+$ git config user.email "repallesireesha495@gmail.com
+> git config user.email "repallesireesha495@gmail.com"
+> bash: unexpected EOF while looking for matching `"'
+bash: syntax error: unexpected end of file
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~/desktop/raptor (master)
+$ git config user.email "repallesireesha495@gmail.com"
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~/desktop/raptor (master)
+$ git remote add raptor1
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~/desktop/raptor (master)
+$ git remote add raptor1 https://github.com/Repallesireesha/Raptor1
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~/desktop/raptor (master)
+$ git remote -v
+raptor1 https://github.com/Repallesireesha/Raptor1 (fetch)
+raptor1 https://github.com/Repallesireesha/Raptor1 (push)
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~/desktop/raptor (master)
+$ ls
+ addition.rap  'Enter the number.rap'  'Even or Odd.rap'   Hello.rap   Multiplication.rap  'Power of two numbers.rap'   Task.rap
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~/desktop/raptor (master)
+$ git add*
+git: 'addition.rap' is not a git command. See 'git --help'.
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~/desktop/raptor (master)
+$ git add *
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~/desktop/raptor (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Enter the number.rap
+        new file:   Even or Odd.rap
+        new file:   Hello.rap
+        new file:   Multiplication.rap
+        new file:   Power of two numbers.rap
+        new file:   Task.rap
+        new file:   addition.rap
+
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~/desktop/raptor (master)
+$ git commit -m "Nani"
+[master (root-commit) 9c06f50] Nani
+ 7 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Enter the number.rap
+ create mode 100644 Even or Odd.rap
+ create mode 100644 Hello.rap
+ create mode 100644 Multiplication.rap
+ create mode 100644 Power of two numbers.rap
+ create mode 100644 Task.rap
+ create mode 100644 addition.rap
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~/desktop/raptor (master)
+$ git log
+commit 9c06f50b613139d7e92ae3858fca93018822111d (HEAD -> master)
+Author: Repallesireesha <repallesireesha495@gmail.com>
+Date:   Sat Aug 31 02:28:40 2019 -0700
+
+    Nani
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~/desktop/raptor (master)
+$ git push -u raptor1 master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 6.12 KiB | 569.00 KiB/s, done.
+Total 9 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), done.
+To https://github.com/Repallesireesha/Raptor1
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'raptor1'.
+
+R&D1@DESKTOP-3HA19D2 MINGW64 ~/desktop/raptor (master)
+$
